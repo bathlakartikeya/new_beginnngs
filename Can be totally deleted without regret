@@ -1,0 +1,40 @@
+#print ("hello world !!")
+#number_1 = int(input("please enter first number "))
+#number_2 = int(input("please enter second number "))
+#operator = input("please chose the operator ")
+
+#if operator == "+" :
+#  answer = number_1 + number_2
+#elif operator == "-" :
+#  answer = number_1 - number_2
+#elif operator == "/" :
+#  answer = number_1 / number_2
+#elif operator == "X" :  
+#  answer = number_1 * number_2
+#print (answer)
+
+#from random import randint
+#guess = int(input("try to guess the number between 1 and 10 "))
+#number = randint(1,11)
+#  print ("wow ! you got it")
+#elif guess > number :
+#  print (":/ you went too far !")
+#elif guess < number :
+#  print (":/ you chose a smaller number")
+#number_of_attempts = 1 
+#while guess != number :
+#  if guess > number :
+#    print (":/ you went too far !")
+#  if guess < number :
+#    print (":/ you chose a smaller number")
+#  guess = int(input("again try to guess the number between 1 and 10 "))
+#  number_of_attempts = number_of_attempts + 1   
+#print("you took {} attempts".format(number_of_attempts))
+
+#from random import randint 
+#decision = input("please tell if dice should be rolled ")
+#while decision.lower() == "y" :
+#  count = randint(1,6)
+#  print (count)
+#  decision = input("should dice be rolled agein ? ")
+#print ("bye bye !")
