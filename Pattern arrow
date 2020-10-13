@@ -1,0 +1,24 @@
+#1 2 3 4 5 6 7
+#1 2 3 4 5 6 7
+#1 2 3 4 5 6 7 
+#1 2 3 * 5 6 7
+#1 2 * 4 * 6 7
+#1 * 3 4 5 * 7
+#* 2 3 4 5 6 *
+
+side = int(input("please enter the side of square for pattern"))
+for length in range (1,side + 1) :
+  for width in range (1,side +1) :
+    if length + width == side + 1 :
+      print ("@", end ="  ")
+    elif length == width :
+      print ("@", end ="  ")    
+    else :
+      print ("*", end = "  ")
+    if length > side//2 and length + width == side + 1 :
+      print ("*", end = "  ")
+    elif length > side // 2 and length == width :
+      print ("*", end = "  ")
+    else :
+      print (" " , end = "  ")  
+  print ("\n") 
